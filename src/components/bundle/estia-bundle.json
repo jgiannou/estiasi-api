@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_bundle_estia_bundles",
+  "info": {
+    "displayName": "EstiaBundle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
