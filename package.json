@@ -1,5 +1,5 @@
 {
-  "name": "strapi-backend",
+  "name": "estiasi-strapi-backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,21 +9,18 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-documentation": "^4.4.0",
-    "@strapi/plugin-i18n": "4.3.9",
-    "@strapi/plugin-users-permissions": "4.3.9",
-    "@strapi/strapi": "4.3.9",
-    "better-sqlite3": "7.4.6",
-    "pg": "^8.8.0",
-    "pg-connection-string": "^2.5.0",
-    "strapi-plugin-transformer": "^2.1.0"
+    "@strapi/plugin-i18n": "4.1.7",
+    "@strapi/strapi": "4.1.7",
+    "@strapi/plugin-users-permissions": "4.1.7",
+    "sqlite3": "^5.0.2"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "e6d5c5fa-3b70-4412-8d2b-69c01c44bd5e"
+    "uuid": "b4a9b934-98e8-401e-9f60-ad3319a3e359"
   },
   "engines": {
     "node": ">=10.0.0",
